@@ -11,9 +11,9 @@ import sys
 # Tell Sphinx where your extenstions can be found
 sys.path.append(os.path.abspath("./_ext"))
 
-project = "RSE Sphinx sample project"
-copyright = "2024, Homer S."
-author = "Homer S."
+project = "RSE Documentation Workshop"
+copyright = "2024, jessica-mitchell"
+author = "Jessica Mitchell"
 release = "1"
 
 # -- General configuration ---------------------------------------------------
@@ -22,21 +22,20 @@ release = "1"
 # add your extensions to the list
 extensions = ["helloworld", # custom extension
               "templating_example", # custom extension
+              "sphinx_gallery.gen_gallery",
               "sphinx.ext.mathjax",
               "sphinx.ext.autodoc",
-              "nbsphinx",
-              "sphinx_gallery.gen_gallery"]
+              ]
 
 templates_path = ["_templates"]
 # exclude_patterns = []
-
 
 sphinx_gallery_conf = {
     # path to your examples scripts
     "examples_dirs": "../examples",
     # path where to save gallery generated examples
     "gallery_dirs": "auto_examples",
-    "plot_gallery": True,
+    "plot_gallery": True
 }
 
 

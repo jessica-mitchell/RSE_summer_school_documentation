@@ -5,7 +5,7 @@ This project showcases a few things you can do with Sphinx.
 
 * For the complete documentation see `the official Sphinx documentation <https://www.sphinx-doc.org/en/master/>`_.
 
-* For some interesting extensions :doc:`see this list <ext_list>`.
+* For some interesting extensions :doc:`see this list <sphinx_ext_list>`.
 
 
 Sphinx uses the concept of directives and roles to create the various formats and structure.
@@ -98,6 +98,15 @@ of extensions, along with the path to your Python files.
 
 .. automodule:: templating_example
     :members:
+
+Sphinx gallery example
+----------------------
+
+You can generate HTML gallery from Python scripts with sphinx-gallery.
+By providing the path to your examples in ``conf.py``, sphinx-gallery will render the 
+script in reStructured Text, with an optionally executable Python script and Jupyter Notebook.
+
+You can see an example here :doc:`auto_examples/index`.
 
 
 

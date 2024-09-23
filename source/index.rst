@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to sample_project's documentation!
-==========================================
+Welcome to RSE Documentation Workshop's documentation page!
+===========================================================
 
 
 Here you can find resources based on the RSE summer school workshop on Documentation.
@@ -25,6 +25,14 @@ Documentation templates
    doc_templates/*
 
 
+
+Tutorial-driven development
+---------------------------
+
+A method to develop new features with documentation as the driving force.
+
+See :ref:`an example of how to use tutorial-driven development <ttd_example>`.
+
 Documentation generators
 ------------------------
 
@@ -40,7 +48,7 @@ Turn plain text and code into discoverable, understandable, and clean output
 -  `Sphinx <https://www.sphinx-doc.org/>`__
 
 
-   - **Python**, C++, C, Javascript [see extension list](https://www.sphinx-doc.org/en/master/usage/extensions/index.html) 
+   - **Python**, C++, C, Javascript
 
    - compatible with Read the Docs
 
@@ -81,6 +89,16 @@ A list of Sphinx extensions we have found useful:
 
 :doc:`sphinx_ext_list`
 
+Sample RMarkdown page using GitHub Pages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Not everyone may find Sphinx useful.
+
+Here is an :ref:`example <rmarkdown_ghpage>` of using RMarkdown with GitHub pages.
+
+
+
+
 Documentation hosting platforms
 -------------------------------
 
@@ -119,8 +137,6 @@ More interesting and useful documentation resources
 
 
 
-*
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -134,5 +150,8 @@ More interesting and useful documentation resources
    :hidden:
    :glob:
 
-   ext_list
-   auto_examples/index
+   sphinx_ext_list
+   sample_sphinx
+   tutorial-driven-development_example
+   tutorials
+   RMarkdown_example
