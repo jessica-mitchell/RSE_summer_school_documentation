@@ -1,0 +1,17 @@
+[
+  {
+    "pet": "dog",
+    "breeds": ["shih tzu", "yorkiepoo", "newfoundland"]
+
+  },
+  {
+    "pet": "cat",
+    "breeds": ["cornish rex", "manx", "himalayan"]
+
+  },
+  {
+    "pet": "dinosaur",
+    "breeds": ["parakeet", "stegosaurus", "canary", "triceratops"]
+
+  }
+]
