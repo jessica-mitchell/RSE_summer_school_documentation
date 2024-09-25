@@ -82,6 +82,8 @@ Turn plain text and code into discoverable, understandable, and clean output
    -  Documeantion for OpenAPI or AsyncAPI specification
 
 
+-  `And many more <https://jamstack.org/generators/>`_
+
 Sample Sphinx project
 ~~~~~~~~~~~~~~~~~~~~~~
 

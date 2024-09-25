@@ -1,5 +1,5 @@
-How to create sustainable documentation
-=======================================
+How to maintain your documentation
+==================================
 
 General recommendations
 -----------------------
@@ -111,8 +111,7 @@ discussion: summary of key points make documentation maintenance easier
 
 -  Create and promote a lightweight style guide
 
--  Stick to an `“Every page is page >
-   one” <http://everypageispageone.com/>`__ approach
+-  Stick to an `“Every page is page one” <http://everypageispageone.com/>`__ approach
 
 -  Use templates to make writing new content easier for new and >
    returning contributors

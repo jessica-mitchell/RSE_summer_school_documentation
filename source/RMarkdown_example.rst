@@ -38,7 +38,7 @@ Under :kbd:`Settings` go to :kbd:`Pages`. Select a Source - in this case we will
 We then select branch ``main`` and ``docs`` as the folder we want to build from.
 
 Push your HTML and Rmd files to your GitHub repo. (Make sure you have a file called ``index.html``).
-It might take a couple of minutes, but your site will be live at ``https://<you-username>.github.io/<project>``
+It might take a couple of minutes, but your site will be live at ``https://<your-username>.github.io/<project>``
 
 Output
 ------

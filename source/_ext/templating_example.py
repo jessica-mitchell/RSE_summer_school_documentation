@@ -11,9 +11,10 @@ def template_renderer(app, docname, source):
     for dynamic content generation.
 
     Parameters:
-    app (Sphinx): The Sphinx application object.
-    docname (str): The name of the document currently being processed.
-    source (list): A list containing the source of the document as a single string.
+
+    - app (Sphinx): The Sphinx application object.
+    - docname (str): The name of the document currently being processed.
+    - source (list): A list containing the source of the document as a single string.
 
     Returns:
     None
@@ -37,10 +38,12 @@ def setup(app):
     to the `source-read` event.
 
     Parameters:
-    app (Sphinx): The Sphinx application object.
+
+    - app (Sphinx): The Sphinx application object.
 
     Returns:
-    dict: A dictionary containing the version and parallel processing information for the Sphinx extension.
+
+    - dict: A dictionary containing the version and parallel processing information for the Sphinx extension.
     """
     app.connect("source-read", template_renderer)
 

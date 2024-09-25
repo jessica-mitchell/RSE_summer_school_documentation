@@ -7,10 +7,11 @@ This project showcases a few things you can do with Sphinx.
 
 * For some interesting extensions :doc:`see this list <sphinx_ext_list>`.
 
+----
 
-To run Sphinx, you can install it with pip: ``pip install sphinx``.
+To run Sphinx, install it with pip: ``pip install sphinx``.
 
-Then run ``sphinx-quickstart`` : This will prompt you to answer a couple of questions. 
+On the commandline run ``sphinx-quickstart`` : This will prompt you to answer a couple of questions. 
 It will produce all the basic files you need to run Sphinx.
 
 Run ``make html`` and open the HTML page (located in the build directory) in your browser.
