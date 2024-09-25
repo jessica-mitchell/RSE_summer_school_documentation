@@ -8,7 +8,8 @@ It is intended for the participants so they have access to the discussion topics
 workshop, as well as afterwards so they can continue their documentation developments.
 
 You can either navigate through the source files in the repo or
-click here to see the documentation output on Read the Docs.
+click here to see the [documentation output](https://rse-summer-school-documentation.readthedocs.io/en/latest/)
+on Read the Docs.
 
 There are two main folders:
 

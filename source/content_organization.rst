@@ -97,10 +97,10 @@ Types of documentation content
 
    -  Link to relevant peer-reviewed publication(s) (if relevant)
 
-   -  `Citation info <https://citation-file-format.github.io/>`
+   -  `Citation info <https://citation-file-format.github.io/>`_
       for this software / service
 
-   -  `License <https://choosealicense.com/>` info
+   -  `License <https://choosealicense.com/>`_ info
 
    -  Acknowledgments (funders, institutions, etc)
 
@@ -119,7 +119,7 @@ Content development
 -  Use subject matter experts (SMEs) to develop content alongside
    developers
 
--  Use a `style guide <#what-should-be-in-a-style-guide>`__ to help
+-  Use a to help
    develop consistent documentation
 
 -  Ensure documentation is understandable by the main audience (consider

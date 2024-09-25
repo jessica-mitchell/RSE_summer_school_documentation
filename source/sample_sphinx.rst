@@ -1,25 +1,52 @@
 Sample Sphinx project page
 ==========================
 
-This project showcases a few things you can do with Sphinx. 
+This project showcases a few things you can do with Sphinx.
 
 * For the complete documentation see `the official Sphinx documentation <https://www.sphinx-doc.org/en/master/>`_.
 
 * For some interesting extensions :doc:`see this list <sphinx_ext_list>`.
 
 
-Sphinx uses the concept of directives and roles to create the various formats and structure.
-You can write your documents in either reStructured Text or Markdown.
+To run Sphinx, you can install it with pip: ``pip install sphinx``.
 
-Restructured Text syntax for directive and roles:
+Then run ``sphinx-quickstart`` : This will prompt you to answer a couple of questions. 
+It will produce all the basic files you need to run Sphinx.
+
+Run ``make html`` and open the HTML page (located in the build directory) in your browser.
+
+``firefox build/html/index.html``
+
+----
+
+Sphinx uses the concept of directives and roles to create the various markup and functionality.
+
+You can write your documents in either reStructured Text or Markdown
+(`MyST parser <https://myst-parser.readthedocs.io/en/latest/syntax/roles-and-directives.html#roles-directives>`_).
+
+Restructured Text
+
 
 ::
 
-   .. directive_name::
+   .. directive_name:: arguments
+       :option: value
 
-        Text here
+        Content here
 
-   Some text with :role_name:`text`
+   For inline markup we use :role_name:`role content`
+
+Markdown
+
+::
+
+   ```{directive_name} arguments
+      :option: value
+
+      Content here
+    ```
+
+    For inline markup we use {role_name}`role content`
 
 An image example
 ----------------
@@ -103,7 +130,7 @@ Sphinx gallery example
 ----------------------
 
 You can generate HTML gallery from Python scripts with sphinx-gallery.
-By providing the path to your examples in ``conf.py``, sphinx-gallery will render the 
+By providing the path to your examples in ``conf.py``, sphinx-gallery will render the
 script in reStructured Text, with an optionally executable Python script and Jupyter Notebook.
 
 You can see an example here :doc:`auto_examples/index`.
@@ -165,7 +192,7 @@ called ``my_data.json``.
 We then need to write a script (``_ext/templating_example.py``). This script will connect the Jinja template provided
 in the document with the dataset. The script is triggered at a specific event ``source-read`` during the Sphinx build process.
 
-Make sure to add that script filename to our list of extensions in ``conf.py``. 
+Make sure to add that script filename to our list of extensions in ``conf.py``.
 And ensure that the path to extensions is also in the ``conf.py``
 (e.g., ``sys.path.append(os.path.abspath("./_ext")``).
 
@@ -175,7 +202,7 @@ And ensure that the path to extensions is also in the ``conf.py``
 
 In our document (``sample_sphinx.rst``), we need to use Jinja template syntax to generate the desired output.
 
-We want to display a subselection of the data as lists. 
+We want to display a subselection of the data as lists.
 Jinja is similar to Python, but has some differences.
 See the `Jinja templating documentation for details <https://jinja.palletsprojects.com/en/3.1.x/templates/>`_.
 
