@@ -24,11 +24,10 @@ You can also find summary documents about
 Documentation templates
 -----------------------
 
-.. toctree::
-   :glob:
-
-   doc_templates/*
-
+* :doc:`README template <doc_templates/README_template>`
+* :doc:`Style guide template<doc_templates/doc_styleguide_template>`
+* :doc:`Contributor guidelines template <doc_templates/contributing_guidelines_template>`
+* :doc:`Reviewer guidelines template <doc_templates/reviewer_guidelines_template>`
 
 
 Tutorial-driven development
@@ -157,9 +156,9 @@ More interesting and useful documentation resources
 
    content_organization
    documentation_maintenance
+   tutorials
+   doc_templates/*
    sample_sphinx
    sphinx_ext_list
    tutorial-driven-development_example
-   tutorials
    RMarkdown_example
-

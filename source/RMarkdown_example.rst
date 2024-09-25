@@ -40,4 +40,12 @@ We then select branch ``main`` and ``docs`` as the folder we want to build from.
 Push your HTML and Rmd files to your GitHub repo. (Make sure you have a file called ``index.html``).
 It might take a couple of minutes, but your site will be live at ``https://<you-username>.github.io/<project>``
 
+Output
+------
+
 The output looks like this: `R sample project <https://jessica-mitchell.github.io/RSE_summer_school_documentation/>`_
+
+GitHub action
+--------------
+
+`GitHub action for RMarkdown <https://github.com/marketplace/actions/github-action-for-rmarkdown>`_
