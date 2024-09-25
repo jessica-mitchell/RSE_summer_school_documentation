@@ -65,14 +65,16 @@ Always try to have other people review your tutorial to ensure it is
 understandable and covers the topic thoroughly.
 
 -   Subject matter experts - focus on content correctness and relevance
+
     It is particularly useful to have someone who is not a developer review the tutorial.
     Often, technical implementation details can sneak into user facing documentation.
     In research software, an expert in the domain or subject matter of the field can provide
     content quality assurance.
 
--   Anyone who might use it - focus on understandability and usefulness
+-   Anyone who might use it - having a potential user contribute to or review the tutorial
+    will provide feedback to how understandable and useful the tutorial really is.
 
 
-You can also get people who are unfamiliar with the subject; they can test the logic
+You can also get people who are unfamiliar with the subject; they can test the logic,
 language, and any technical details.
 

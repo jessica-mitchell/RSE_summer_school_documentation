@@ -46,8 +46,8 @@ README template
 
 
 
-README resources
-----------------
+Links to resources
+------------------
 
 * `A list of awesome READMEs <https://github.com/matiassingers/awesome-readme>`_
 

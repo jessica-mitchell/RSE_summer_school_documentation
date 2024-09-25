@@ -25,7 +25,7 @@ def template_renderer(app, docname, source):
         my_data = json.load(file)
 
     if docname == "sample_sphinx":
-        # Render the index page using the Jinja template with custom data
+        # Render the specified page using the Jinja template with custom data
         html_context = {"pet_data": my_data}
         src = source[0]
         rendered = app.builder.templates.render_string(src, html_context)

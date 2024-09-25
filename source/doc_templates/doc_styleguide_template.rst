@@ -7,6 +7,12 @@ Styleguide for your docs
    # Documentation styleguide
 
    The purpose of the styleguide is to maintain a consistent and cohesive voice and appearance within the documentation.
+   You define specific ways you want contributors to write. These include language, grammar, tone, and spelling. And it
+   also should specify formats and structural elements if you have specific expectations.
+
+   It does not need to be an exhausive guide on every nuance in language styling. 
+
+   Use pre-existing styleguides as a reference point:
 
    For any questions on specific style questions not addressed here, refer to the Microsoft style guide.
 
@@ -15,13 +21,13 @@ Styleguide for your docs
    For writing prose, we use American English.
 
    Documentation is written in reStructured Text.
-   See `this guide <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-   for reStructured Text primer.
+   See [this guide](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html).
+   for a reStructured Text primer.
 
-   Python docstrings follow the `NumPy style <https://numpydoc.readthedocs.io/en/latest/format.html>`_.
+   Python docstrings follow the [NumPy style](https://numpydoc.readthedocs.io/en/latest/format.html).
 
    Bibliographies follow the
-   `APA style <https://apastyle.apa.org/style-grammar-guidelines/references/examples/journal-article-references>`_.
+   [APA style](https://apastyle.apa.org/style-grammar-guidelines/references/examples/journal-article-references).
 
    ## Define specifics rules and expectations
 
@@ -36,15 +42,22 @@ Styleguide for your docs
 
    * Headings and subheadings should be descriptive and specify the topic.
      Titles like 'Introduction' or 'Part 1' are uniformative.
-     Say 'How to do X' or use a verb in the present tense like 'Create you own network model'.
+     Say 'How to do X' or use a verb in the present tense like 'Create your own network model'.
 
    * Do not write multiple extensive paragraphs. Break up long sections of text with examples,
      bullet lists, or images to make readability easier.
 
    * Do not use complex phrases or vocabularly if it is not specific to the subject matter.
-     Use `plain language <https://www.plainlanguage.gov/about/definitions/>`_.
+     Use [plain language](https://www.plainlanguage.gov/about/definitions/).
 
 
 
 
+Links to resources
+------------------
+
+
+*  `Vale <https://vale.sh/>`__ - a linter for prose.
+
+   Enable automation to check that styleguide rules are follwed.
 

@@ -45,9 +45,9 @@ You now need to approach this problem as if you are a user.
     What is the goal of the tutorial?
 
 
-       This tutorial will show  you how you can import data from an external database and compare results between built-in model and the imported model.
+       This tutorial will show  you how you can import data from an external database and compare results between a built-in model and the imported model.
 
-    What are the prerequisite before starting?
+    What are the prerequisites before starting?
 
       You will need our tool installed as well as access to the external database.
 
@@ -78,13 +78,14 @@ You now need to approach this problem as if you are a user.
 4. Once we have a decent tutorial laid out, we can then go through each of the steps and see how we can implement
    them in the code.
 
-   Step 1 and Step 2 is something our tool can already do, so code does not need to change.
+   Step 1 and Step 2 are steps our tool can already do, so the code does not need to change.
 
 
    Next we take a look at Step 3 importing "y"
 
    We start to evaluate how we will write code to accomplish this task.
    We determine that code for this step will require 3 functions:
+
    -  Fetch the model
    -  Move the model to the right location
    -  Convert model to the correct format
@@ -109,7 +110,7 @@ You now need to approach this problem as if you are a user.
 5. Continue to work through each step of the tutorial. As you create and modify code, you update the tutorial.
 
 
-6. Once each step is completed in the code, you have functional code along with a functional tutorial, which you can 
+6. Once each step is completed in the code, you will have functional code along with a functional tutorial, which you can 
    use to test if the code executes as expected!
 
 

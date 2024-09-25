@@ -173,7 +173,7 @@ And ensure that the path to extensions is also in the ``conf.py``
 .. literalinclude:: _ext/templating_example.py
 
 
-In our document (``index.rst``), we need to use Jinja template syntax to generate the desired output.
+In our document (``sample_sphinx.rst``), we need to use Jinja template syntax to generate the desired output.
 
 We want to display a subselection of the data as lists. 
 Jinja is similar to Python, but has some differences.
@@ -242,4 +242,18 @@ Show available dinosaur breeds:
 {% endfor %}
 
 
+Deploy Sphinx on Pages
+----------------------
 
+Here is an example CI workflow if you want to trigger a Sphinx build and deploy the output on
+GitHub or GitLab Pages.
+
+
+Gitlab:
+
+.. literalinclude:: doc_templates/GITLAB_SPHINX_CI.yml
+
+
+GitHub:
+
+.. literalinclude:: doc_templates/GITHUB_SPHINX_CI.yml

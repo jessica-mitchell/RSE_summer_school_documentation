@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to RSE Documentation Workshop's documentation page!
-===========================================================
+Welcome to the RSE Documententation Page!
+=========================================
 
 
 Here you can find resources based on the RSE summer school workshop on Documentation.
@@ -14,6 +14,11 @@ Slide deck
 
 Here is a copy of the slides used during the workshop
 
+You can also find summary documents about
+
+* :doc:`documentation organization and content <content_organization>`
+* :doc:`documentation maintenance <documentation_maintenance>`
+* :doc:`writing tutorials <tutorials>`
 
 
 Documentation templates
@@ -89,10 +94,10 @@ A list of Sphinx extensions we have found useful:
 
 :doc:`sphinx_ext_list`
 
+
 Sample RMarkdown page using GitHub Pages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Not everyone may find Sphinx useful.
 
 Here is an :ref:`example <rmarkdown_ghpage>` of using RMarkdown with GitHub pages.
 
@@ -102,7 +107,7 @@ Here is an :ref:`example <rmarkdown_ghpage>` of using RMarkdown with GitHub page
 Documentation hosting platforms
 -------------------------------
 
--  `Read the Docs <https://readthedocs.org/>`__
+-  `Read the Docs <https://docs.readthedocs.io/en/stable/tutorial/index.html>`__
 
 -  `GitHub Pages <https://pages.github.com/>`__
 
@@ -116,7 +121,8 @@ More interesting and useful documentation resources
 -  `Write the docs <https://www.writethedocs.org/>`__
 
    -  a global community of people who care about documentation. Numerous
-      articles and videos, a newsletter, conferences and Slack channel with over 20,000 members!
+      articles and videos, a newsletter, conferences, and a Slack channel 
+      with over 20,000 members!
 
 -  A `curated list <https://github.com/testthedocs/awesome-docs>`__ of
    awesome documentation tools, guides, and good practice
@@ -128,11 +134,10 @@ More interesting and useful documentation resources
 
 -  `nbgitpuller <https://hub.jupyter.org/nbgitpuller/link.html>`__ -
    Generate links to launch notebooks in a selected service (like
-   EBRAINS JupyterHub)
+   JupyterHub and Binder)
 
 -  `lychee <https://lychee.cli.rs/>`__ - Link checker for your docs
 
--  `Vale <https://vale.sh/>`__ - a linter for prose
 
 
 
@@ -150,8 +155,11 @@ More interesting and useful documentation resources
    :hidden:
    :glob:
 
-   sphinx_ext_list
+   content_organization
+   documentation_maintenance
    sample_sphinx
+   sphinx_ext_list
    tutorial-driven-development_example
    tutorials
    RMarkdown_example
+

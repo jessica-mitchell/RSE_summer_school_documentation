@@ -2,10 +2,6 @@ Reviewer Guidelines Template
 ============================
 
 
-* `An example from GitLab <https://egghead.io/lessons/javascript-introduction-to-github>`_
-* `Code review guidelins for humans  <https://phauer.com/2018/code-review-guidelines/#code-reviews-guidelines-for-the-reviewer>`_
-
-
   .. code-block::
 
      # Reviewer guidelines
@@ -35,7 +31,7 @@ Reviewer Guidelines Template
      3. Talk about the code not the coder.
      4. Say thanks!
 
-     See more `tips here <https://phauer.com/2018/code-review-guidelines/#code-reviews-guidelines-for-the-reviewer>`_.
+     See more [tips here](https://phauer.com/2018/code-review-guidelines/#code-reviews-guidelines-for-the-reviewer).
 
      ## Checklist for reviewers:
 
@@ -61,3 +57,11 @@ Reviewer Guidelines Template
      - Check that the PR is correctly labeled
      - Ensure that all comments and questions are resolved
      - Check that the correct number of reviewers have approved
+
+Links to resources
+-------------------
+
+* `An example from GitLab <https://egghead.io/lessons/javascript-introduction-to-github>`_
+* `Code review guidelines for humans  <https://phauer.com/2018/code-review-guidelines/#code-reviews-guidelines-for-the-reviewer>`_
+
+
