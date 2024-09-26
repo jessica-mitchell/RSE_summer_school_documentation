@@ -30,7 +30,7 @@ Documentation templates
 * :doc:`Style guide template<doc_templates/doc_styleguide_template>`
 * :doc:`Contributor guidelines template <doc_templates/contributing_guidelines_template>`
 * :doc:`Reviewer guidelines template <doc_templates/reviewer_guidelines_template>`
-
+* :doc:`Documentation issue template <doc_templates/doc_issue_template>`
 
 Tutorial-driven development
 ---------------------------
