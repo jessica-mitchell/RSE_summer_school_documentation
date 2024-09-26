@@ -12,7 +12,9 @@ Here you can find resources based on the RSE summer school workshop on Documenta
 Slide deck
 ----------
 
-Here is a copy of the slides used during the workshop
+Here is a copy of the slides used during the workshop:
+
+:download:`slides <../rse-summerschool.pdf>`
 
 You can also find summary documents about
 
