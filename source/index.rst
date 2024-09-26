@@ -162,7 +162,7 @@ More interesting and useful documentation resources
    documentation_maintenance
    tutorials
    doc_templates/*
+   tutorial-driven-development_example
    sample_sphinx
    sphinx_ext_list
-   tutorial-driven-development_example
    RMarkdown_example
