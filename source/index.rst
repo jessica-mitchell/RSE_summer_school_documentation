@@ -71,6 +71,11 @@ Turn plain text and code into discoverable, understandable, and clean output
 
    -  **R**, Python, Julia, C++, and SQL
 
+-  `Quarto <https://quarto.org>`_
+   
+   - **R**, Python, Julia, Observable (JS
+
+
 -  `FORD <https://forddocs.readthedocs.io/en/stable/>`__
 
    -  **Fortran**
